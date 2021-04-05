@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <button class="tablink" onclick="openPage('home', this, 'var(--dkgreen)')">Full Implementation</button>
+    <button class="tablink" onclick="openPage('coding', this, 'var(--pinegreen)')" id="defaultOpen">Coding</button>
+    <button class="tablink" onclick="openPage('uxui', this, 'var(--ltseagreen)')">UX/UI</button>
+    <button class="tablink" onclick="openPage('graphic-design', this, 'var(--turquoise)')">Graphic Design</button>
+
+    <div id="home" class="tabcontent">
+    <h3>Home</h3>
+    <p>Home is where the heart is..</p>
+    </div>
+
+    <div id="coding" class="tabcontent">
+    <h3>Coding</h3>
+    <p>Still coding away at Georgia Tech Bootcamp!</p>
+    </div>
+
+    <div id="uxui" class="tabcontent">
+    <h3>UX/UI</h3>
+    <p>My most recent UX/UI project!</p>
+    </div>
+
+    <div id="graphic-design" class="tabcontent">
+    <h3>Graphic Design</h3>
+    <p>My non-coding non-interaction design</p>
+    </div>
+
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -15,5 +46,5 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
