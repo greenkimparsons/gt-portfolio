@@ -1,23 +1,25 @@
 :root {
-    --dkgreen: #041B15;
-    --pinegreen: #136F63;
-    --ltseagreen: #22AAA1;
-    --turquoise: #4CE0D2;
-    --skyblue: #84CAE7;
+  --dkgreen: #041b15;
+  --pinegreen: #136f63;
+  --ltseagreen: #22aaa1;
+  --turquoise: #4ce0d2;
+  --skyblue: #84cae7;
 
-    --royalblue: #03256C;
-    --denimblue: #2541B2;
-    --saphireblue: #1768AC;
-    --vividskyblue: #06BEE1;
-    --white: #FFFFFF;
-  }
+  --royalblue: #03256c;
+  --denimblue: #2541b2;
+  --saphireblue: #1768ac;
+  --lightblue: #a6cfd5;
+  --white: #ffffff;
+  --aeroblue: #C2E7D9;
+}
 
 /* Set height of body and the document to 100% to enable "full page tabs" */
 body,
 html {
   height: 100%;
   margin: 0;
-  font-family: Arial;
+  font-family: inter -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* Style tab links */
@@ -30,7 +32,7 @@ html {
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 25%;
+  width: 20%;
 }
 
 .tablink:hover {
@@ -58,5 +60,10 @@ html {
 }
 
 #graphic-design {
-  background-color: var(--vividskyblue);
+  background-color: var(--lightblue);
+}
+
+#contact {
+  background-color: var(--aeroblue);
+  color: var(--royalblue);
 }
