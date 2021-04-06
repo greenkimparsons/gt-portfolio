@@ -49,6 +49,26 @@
       </button>
     </div>
 
+    <!-- <ul class="nav nav-pills nav-fill">
+      <li class="nav-item tablink">
+         <button
+        class="nav-link tablink btn-block"
+        onclick="openPage('contact', this, 'var(--aeroblue)')"
+      >
+        Contact
+      </button>
+      </li>
+      <li class="nav-item tablink">
+        <a class="nav-link" href="#">Longer nav link</a>
+      </li>
+      <li class="nav-item tablink">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item tablink">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul> -->
+
     <div id="home" class="tabcontent">
       <h3>Home</h3>
       <p>Home is where the heart is..</p>
@@ -63,8 +83,26 @@
     </div>
 
     <div id="uxui" class="tabcontent">
-      <h3>UX/UI</h3>
-      <p>My most recent UX/UI project!</p>
+      <div class="row">
+        <div class="col-9 block mx-auto">
+          <h3>Introducing Beauty Tales</h3>
+          <p>To offer an all-in-1 Beauty App</p>
+          <img src="" />
+          <p>
+            With a high demand and investment in the Beauty industry, there is
+            not a single app yet that does what Beauty Tales would do. <br />
+            Through Beauty Tales, an user can watch, share, and get personal
+            beauty advice and stories while being able to purchase those
+            products all in one app. With this advantage, I hoped to connect
+            users that shared the similar interest of beauty to be able to stay
+            connected and seek beauty advice in real-time. <br />
+            Beauty Tales would do the following:
+          </p>
+          <ul>
+            <li>Watch favorite beauty Youtubers</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <div id="graphic-design" class="tabcontent">
@@ -79,6 +117,48 @@
         <strong>First</strong> Name: Green <br /><strong>Last</strong> Name: Kim
       </p>
       <p>Email: greenkimparsons@gmail.com</p>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#exampleModal"
+      >
+        View Resume
+      </button>
+      <!-- for resume -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <object
+                class="resume"
+                data="./assets/portfolio-images/greenkim_resume.pdf"
+                type="application/pdf"
+              ></object>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="modal-dialog modal-dialog-centered">
+        ...
+      </div> -->
       <!-- social icon container -->
       <div class="social">
         <!-- github icon -->
@@ -121,6 +201,16 @@
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

@@ -10,7 +10,7 @@
   --saphireblue: #1768ac;
   --lightblue: #a6cfd5;
   --white: #ffffff;
-  --aeroblue: #C2E7D9;
+  --aeroblue: #c2e7d9;
 }
 
 /* Set height of body and the document to 100% to enable "full page tabs" */
@@ -47,16 +47,32 @@ html {
   height: 100%;
 }
 
+.row {
+  align-content: center;
+}
+
+.modal-dialog {
+  height: 90%; /* = 90% of the .modal-backdrop block = %90 of the screen */
+}
+.modal-content {
+  height: 100%; /* = 100% of the .modal-dialog block */
+}
+
+.resume {
+  width: 100%;
+  height: 300px;
+}
+
 code {
-    background-color: black;
-    font-family: Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
-    font-feature-settings: normal;
-    padding: 5px;
-    border-radius: 5px;
+  background-color: black;
+  font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+  font-feature-settings: normal;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .icon {
-    display: inline-block;
+  display: inline-block;
 }
 
 #home {
@@ -78,4 +94,21 @@ code {
 #contact {
   background-color: var(--aeroblue);
   color: var(--royalblue);
+}
+
+.iframe-container {
+  padding-bottom: 60%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
