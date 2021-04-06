@@ -47,6 +47,18 @@ html {
   height: 100%;
 }
 
+code {
+    background-color: black;
+    font-family: Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
+    font-feature-settings: normal;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.icon {
+    display: inline-block;
+}
+
 #home {
   background-color: var(--royalblue);
 }
