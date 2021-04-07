@@ -1,9 +1,7 @@
 # gt-portfolio
 
 ## Description
-First starting off with a hardcoded wireframe of the weather dashboard. 
-Second worked on the Search form to retrieve data from Weather api.
-Third worked on the current weather in a city section by accessing different keys of the array of objects and query parameters. Got it to console.log successfully and need to get it to appear on the page next.
+I first started off with brainstorming how I would be able to section out my portfolio and came to a conclusion of just having a simple UI with tabs. I used a color palette from coolers.co. I tried to utilize what I've learned and not yet have learned by googling. There are still so many things I want to do to my page but I've linked all the things I can so far and will continue to add onto my portfolio page. The challenging part was getting my resume to show in a modal form. Peter helped me with that 
 
 ## Screenshot
 
